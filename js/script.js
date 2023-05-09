@@ -16,5 +16,5 @@ burger.addEventListener('click', ()=>{
 
 let buttonPlay = document.querySelector('.video-inner');
 buttonPlay.onclick = function() {
-  this.innerHTML = '<div><iframe class="video" width="1000px" height="500px" src="https://www.youtube.com/embed/lq149gCzkvE?autoplay=1" title="Youtube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
+  this.innerHTML = '<iframe class="video" width="1000px" height="500px" src="https://www.youtube.com/embed/lq149gCzkvE?autoplay=1" title="Youtube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
 };
