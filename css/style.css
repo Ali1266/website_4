@@ -246,6 +246,11 @@ a{
     padding: 20px 0 50px;
 }
 
+.video-inner{
+    width: 100%;
+    cursor: pointer;
+}
+
 .important{
     padding-top: 150px;
 }
